@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="connectionSpaAyurda-Web.config Connection String" description="connectionSpaAyurda Connection String used in web.config by the application to access the database." defaultValue="Data Source =09185304-SILMI; Initial Catalog=dbSpaAyurda; Integrated Security=true" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Projects_2019\\SpaAyurda\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='connectionSpaAyurda']/@connectionString" />
+  </parameter>
+</parameters>

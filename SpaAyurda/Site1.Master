@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="SpaAyurda.Site1" %>
+
+<!DOCTYPE html>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+
+         <div class ="logo_div" style ="height:250px; width:100%;background-color:#3d1121;border:1px solid #720404;">
+                <asp:Image ID="Image2" runat="server" ImageUrl="~/image/logo.png" /> 
+               </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="footer_section" style ="height:150px; width:100%;background-color:#3d1121;border:1px solid #720404;">
+            </div>
+
+
+       
+    </form>
+</body>
+</html>
